@@ -1,0 +1,17 @@
+{
+  "name": "web-development-testing",
+  "version": "1.0.0",
+  "description": "repo for me to test out webdev stuff",
+  "homepage": "https://github.com/uncreative-avis/web-development-testing#readme",
+  "bugs": {
+    "url": "https://github.com/uncreative-avis/web-development-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncreative-avis/web-development-testing.git"
+  },
+  "license": "ISC",
+  "author": "uncreative_avis",
+  "type": "commonjs",
+  "main": "index.html"
+}
