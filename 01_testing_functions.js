@@ -1,7 +1,9 @@
 // now for the big stuff. functions. scary. here's how to define 'em
 
-// When assigning a string or logging, to insert values into the text,
-// it's generally recommended that you use `backticks` to do ${template(Literals)}
+/*
+    When assigning a string or logging, to insert values into the text,
+    it's generally recommended that you use `backticks` to do ${template(Literals)}
+*/
 
 function exampleFunction(first, second) {
     console.log(`Parameters: ${first}, ${second}`)

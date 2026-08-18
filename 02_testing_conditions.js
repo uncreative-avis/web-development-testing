@@ -1,10 +1,12 @@
 
 let bool1 = true, bool2 = true;
 
-// JS has two versions of the "equal" operator: == (two equals signs) and === (three equals signs).
-// == converts both variables being checked into the same type, === does not.
-// Generally === is preferred to avoid type mismatches.
-// This also applies to the "not equal" operator: != !==
+/*
+    JS has two versions of the "equal" operator: == (two equals signs) and === (three equals signs).
+    == converts both variables being checked into the same type, === does not.
+    Generally === is preferred to avoid type mismatches.
+    This also applies to the "not equal" operator: != !==
+*/
 
 function doBoolComparison() {
     // note: don't need the ""=== true" here to check if smth is true but i added it for readability
