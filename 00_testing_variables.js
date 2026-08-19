@@ -9,10 +9,12 @@ let assignableString = "This is reassignable.";
 // you can define multiple variables in one line
 let firstName = "John", lastName = "Doe";
 
-// var also works but is generally Not Recommended bc the way their scope is handled is weird and complex
-
-// the above values are primitive/value types, meaning stuff like int, string, float
-// below are reference types
+/*
+    var also works but is generally Not Recommended bc the way their scope is handled is weird and complex
+    
+    the above values are primitive/value types, meaning stuff like int, string, float
+    below are reference types
+*/
 
 // this is an "object", which is basically like a dictionary in GDScript
 // but the keys dont have to have a type assigned to them.
