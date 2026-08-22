@@ -7,6 +7,7 @@
     <title>web development testing</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <script src="buttons.js" defer></script>
+    <script src="localstorage.js"></script>
   </head>
 
   <body>
@@ -18,6 +19,9 @@
 
       <button onclick="setText('title', 'New Title!!')">Change Title</button>
       <button onclick="changeBGColor('black')">Change BG Colour</button>
+      <button onclick="saveInputToLocalStorage('titleKey');">Save Input to localStorage</button>
+      <button onclick="setTitleToLocalStorageValue('title', 'titleKey')">Set title to localStorage value</button>
+      <button onclick="localStorage.clear();">Clear localStorage</button>
 
       <br><br>
 
