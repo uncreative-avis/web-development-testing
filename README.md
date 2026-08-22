@@ -7,6 +7,9 @@ So that people can see that I'm learning! Or something. Idk man
 # Why are you writing a README.md file for this?
 I dunno, good practice or something?
 
+# Why do you have the Issues tab enabled?
+If I'm doing something wrong or whatever, open an Issue to tell me what and how to fix it. I wanna be able to do this correctly!
+
 # Other stuff?
 * Commits will be random and not very organised ( i think )
 * I have experience in GDScript and a bit of C# so expect some mentions of those
