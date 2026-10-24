@@ -26,8 +26,21 @@ body {
     padding: 1rem;
 }
 
-.flex-container {
+/* probably the worse colour combo Ever but eh who cares*/
+a:link {
+    color: cadetblue;
+}
+
+a:visited {
+    color: fuchsia;
+}
+
+.flex-row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }

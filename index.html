@@ -14,22 +14,24 @@
   <body>
     <div class="box">
       <h1 id="title">Title</h1>
-      example web page, open console to see javascript stuff (F12)
+        example web page, open console to see javascript stuff (F12)
+        <div class="flex-column">
+          <div class="flex-row">
+            <button onclick="setText('title', 'New Title!!')">Change Title</button>
+            <button onclick="changeBGColor('black')">Change BG Colour</button>
+            <button onclick="saveInputToLocalStorage('titleKey');">Save Input to localStorage</button>
+            <button onclick="setTitleToLocalStorageValue('title', 'titleKey')">Set title to localStorage value</button>
+            <button onclick="localStorage.clear();">Clear localStorage</button>
+          </div>
 
-      <br><br>
-
-      <button onclick="setText('title', 'New Title!!')">Change Title</button>
-      <button onclick="changeBGColor('black')">Change BG Colour</button>
-      <button onclick="saveInputToLocalStorage('titleKey');">Save Input to localStorage</button>
-      <button onclick="setTitleToLocalStorageValue('title', 'titleKey')">Set title to localStorage value</button>
-      <button onclick="localStorage.clear();">Clear localStorage</button>
-
-      <br><br>
-
-      <a href="https://uncreative-avis.github.io/" target="_blank">
-        <img src="https://raw.githubusercontent.com/uncreative-avis/uncreative-avis.github.io/refs/heads/main/public/images/avis_button.png" title="avis's corner of the internet" alt="Pixel art of a silly-looking cat head. Stylised text to the right reads 'AVIS'.">
-      </a>
-      
+          <div>
+            <h2>misc stuff</h2>
+            <a href="https://uncreative-avis.github.io/" target="_blank">
+              <img src="https://raw.githubusercontent.com/uncreative-avis/uncreative-avis.github.io/refs/heads/main/public/images/avis_button.png" title="avis's corner of the internet" alt="Pixel art of a silly-looking cat head. Stylised text to the right reads 'AVIS'.">
+            </a>
+            <a href="https://github.com/uncreative-avis/web-development-testing" target="_blank">GitHub Repo</a>
+          </div>
+        </div>
     </div>
   </body>
 </html>
